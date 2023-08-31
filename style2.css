@@ -1,0 +1,58 @@
+#logo
+{
+    margin-top: 5vw;
+    display: flex;
+    height: 15vw;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logos{
+    height: 12vw;
+    width: 23vw;
+}
+#logo1
+{
+    background-image: url("logos/honda.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 12vw;
+    border-radius: 3rem;
+    background-position: center;
+    opacity: 0.8;
+}
+#logo2
+{
+    background-image: url("logos/kawasaki.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 12vw;
+    border-radius: 3rem;
+    background-position: center;
+    opacity: 0.8;
+}
+#logo3
+{
+    background-image: url("logos/maruti.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 12vw;
+    border-radius: 3rem;
+    background-position: center;
+    opacity: 0.8;
+}
+#logo4
+{
+    background-image: url("logos/skoda.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 12vw;
+    border-radius: 3rem;
+    background-position: center;
+    opacity: 0.8;
+}

@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: whitesmoke;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+#head
+{
+    height: 3.5vw;
+    width:100%;
+    text-align: center;
+    color: rgb(78, 74, 74);
+}
+#head h1{
+    font-size: 3vw;
+}
+#nav{
+    margin: 3rem 1rem 1rem 3rem;
+    height: 3.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+#nav li {
+font-size: 1.6vw;    
+list-style-type: none;
+margin: 0rem 2rem 0rem 2rem;
+}
+#c
+{
+    border: 2px solid gray;
+    border-radius: 40%;
+}
+#nav li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s ease 0s;
+}
+#c, #h,.drpbtn{
+    transition: all 0.4s ease 0s;
+    border-radius: 2rem;
+    padding: 0.8rem;
+}
+ #h,.drpbtn:hover{
+    font-size: 1.7vw;
+    background-color: rgb(69, 67, 67);
+    color: black;
+    padding: 1rem;
+}
+.drpbtn
+{
+    text-decoration:3px underline black;
+    
+}
+#c:hover{
+    font-size: 1.7vw;
+    background-color: rgb(69, 67, 67);
+    color: black;
+    padding: 1rem;
+}
+
+.drpbtn
+{
+    overflow: hidden;
+    font-size: 1.7vw;
+    
+}
+.newly
+{
+    display: block;
+    background-color:inherit;
+    transition:all 0.4s ease-in-out 0.1s ;
+    font-size: 1.9rem;
+}
+.dropd,.drpbtn
+{
+    border: none;
+    outline: none;
+    background-color: inherit;
+
+}
+.drp
+{
+
+    display: none;
+    position: absolute;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+}
+.dropd:hover .drp ,a {
+    display: block;
+
+    
+}
+.newly:hover{
+    background-color: rgb(125, 122, 122);
+    font-size: 2.1rem;
+
+}
+#search{
+    height: 10rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+}
+#im{
+    height: 37%;
+    width: 3.3vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 100%;
+    z-index: 5;
+    position: relative;
+    left: 4vw;
+    cursor: pointer;
+}
+#search input{
+    text-align: right;
+    opacity: 0.5;
+    height: 65%;
+    width: 14%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid rgb(19, 17, 17);
+    border-radius: 15rem;
+    z-index: 2;
+    font-size: 1.2vw;
+    padding: 0.5vw;
+    color: rgb(23, 11, 11);
+    transition: all 0.4s ease 0s;
+}
+#search input:focus {
+    width: 43%;
+    font-size: 2vw;
+    text-align: center;
+}
+#search input:focus img{
+   
+    position: relative;
+    left: 41vw;
+}
